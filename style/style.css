@@ -4,3 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Google fonts */
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+main {
+    width: 70%;
+    margin: auto;
+}
+main header {
+    text-align: center;
+}
+main header > h1 {
+    color: rgb(211, 2, 117);
+}
+h1 {
+    margin: 1rem 0;
+}
+header > p {
+    padding: 1rem 0;
+}
