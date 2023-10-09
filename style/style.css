@@ -31,9 +31,12 @@ header > p {
     justify-content: space-between;
 }
 .cards {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: calc((100% / 3) - 2rem);
     margin: 1rem 0;
+    background-color: black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 div > img {
     width: calc(100% / 3);
@@ -43,5 +46,9 @@ div > img {
 }
 .profile-description {
     line-height: 2rem;
-    padding-left: 1rem ;
+    padding-top: .5rem;
+    padding-left: 1rem;
+}
+.card-title {
+    text-transform: uppercase;
 }
